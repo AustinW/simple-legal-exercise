@@ -1,0 +1,16 @@
+[
+  {
+    "model": "features.developer",
+    "pk": 1,
+    "fields": {
+      "name": "Patrik Outericky"
+    }
+  },
+  {
+    "model": "features.developer",
+    "pk": 2,
+    "fields": {
+      "name": "Austin White"
+    }
+  }
+]

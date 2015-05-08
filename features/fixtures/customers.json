@@ -1,0 +1,18 @@
+[
+  {
+    "model": "features.customer",
+    "pk": 1,
+    "fields": {
+      "name": "John Doe",
+      "last_viewed_feature": "2015-04-01 19:10:00"
+    }
+  },
+  {
+    "model": "features.customer",
+    "pk": 2,
+    "fields": {
+      "name": "Jane Doe",
+      "last_viewed_feature": "2015-05-07 19:05:00"
+    }
+  }
+]

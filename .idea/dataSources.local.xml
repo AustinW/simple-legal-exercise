@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="487107b8-68bd-48bb-a275-1f3802f4114b">
+      <user-name>exercise</user-name>
+      <user-password>dfd9dfc3dfc7dfdadfc6dfcfdfc6dfcfdfcddfcbdfc6</user-password>
+      <schema-pattern>simplelegal.pg_catalog simplelegal.public</schema-pattern>
+      <default-schemas>simplelegal.pg_catalog simplelegal.public</default-schemas>
+    </data-source>
+  </component>
+</project>
