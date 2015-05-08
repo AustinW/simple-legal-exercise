@@ -85,6 +85,11 @@ DATABASES = {
     }
 }
 
+if 'DATABASE_URL' in os.environ:
+    import dj_database_url
+    DATABASES['default'] = dj_database_url.config()
+    DATABASES['default']['ENGINE'] = 'django_postgrespool'
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
