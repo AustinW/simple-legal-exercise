@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from django.http import HttpResponse
 
@@ -8,6 +8,19 @@ from datetime import datetime
 def index(request):
 
     return HttpResponse("Hello, world. You're at the polls index.")
+
+def reset(request):
+    john = Customer.objects.get(pk=1)
+    jane = Customer.objects.get(pk=2)
+
+    john.last_viewed_feature = datetime.strptime('2015-03-01 19:10:00', '%Y-%m-%d %H:%M:%S')
+    jane.last_viewed_feature = datetime.strptime('2015-05-07 19:05:00', '%Y-%m-%d %H:%M:%S')
+
+    john.save()
+    jane.save()
+
+    return redirect('index')
+
 
 def customer(request):
     all_customers = Customer.objects.all()
