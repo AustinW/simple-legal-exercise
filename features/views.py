@@ -2,12 +2,8 @@ from django.shortcuts import render, redirect
 
 from django.http import HttpResponse
 
-from models import *
+from models import Customer, Feature
 from datetime import datetime
-
-def index(request):
-
-    return HttpResponse("Hello, world. You're at the polls index.")
 
 def reset(request):
     john = Customer.objects.get(pk=1)
@@ -22,7 +18,7 @@ def reset(request):
     return redirect('index')
 
 
-def customer(request):
+def customers(request):
     all_customers = Customer.objects.all()
     return render(request, 'customers.html', {
         'customers': all_customers

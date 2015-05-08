@@ -20,7 +20,7 @@ from features import views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-	url(r'^$', views.customer, name='index'),
+	url(r'^$', views.customers, name='index'),
 	url(r'^reset/', views.reset, name='reset'),
     url(r'^customers/(?P<customer_id>[0-9]+)/$', views.customer_detail, name='customer_detail'),
     url(r'^customers/(?P<customer_id>[0-9]+)/new-features$', views.new_features, name='new_features'),
