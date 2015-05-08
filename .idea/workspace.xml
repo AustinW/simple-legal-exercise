@@ -114,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50199205" vertical-offset="0" max-vertical-offset="1152">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
               <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
@@ -136,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customers.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customers.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/templates/customers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.0" vertical-offset="0" max-vertical-offset="828">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.6694215" vertical-offset="54" max-vertical-offset="846">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -171,9 +171,9 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/exercise/settings.py" />
         <option value="$PROJECT_DIR$/exercise/urls.py" />
-        <option value="$PROJECT_DIR$/features/templates/customers.html" />
         <option value="$PROJECT_DIR$/features/fixtures/customers.json" />
         <option value="$PROJECT_DIR$/features/views.py" />
+        <option value="$PROJECT_DIR$/features/templates/customers.html" />
       </list>
     </option>
   </component>
@@ -725,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/templates/customers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.0" vertical-offset="0" max-vertical-offset="828">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/fixtures/customers.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="414">
@@ -743,11 +735,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50199205" vertical-offset="0" max-vertical-offset="1152">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/templates/customers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6694215" vertical-offset="54" max-vertical-offset="846">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
